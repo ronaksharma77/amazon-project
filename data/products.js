@@ -1,16 +1,60 @@
 const products = [
   {
+    id: "36c64692-677f-4f58-b5ec-0dc2cf109e27",
+    image: "images/products/floral-mixing-bowl-set.jpg",
+    name: "10-Piece Mixing Bowl Set with Lids - Floral",
+    rating: {
+      stars: 4,
+      count: 750
+    },
+    priceCents: 4168,
+    keywords: [
+      "mixing bowls",
+      "baking",
+      "cookware",
+      "kitchen"
+    ]
+  },
+  {
+    id: "aaa65ef3-8d6f-4eb3-bc9b-a6ea49047d8f",
+    image: "images/products/kitchen-paper-towels-30-pack.jpg",
+    name: "2-Ply Kitchen Paper Towels - 30 Pack",
+    rating: {
+      stars: 4.0,
+      count: 1055
+    },
+    priceCents: 5499,
+    keywords: [
+      "kitchen",
+      "kitchen towels"
+    ]
+  },
+  {
+    id: "bc2847e9-5323-403f-b7cf-57fde044a955",
+    image: "images/products/men-cozy-fleece-zip-up-hoodie-red.jpg",
+    name: "Men's Full-Zip Hooded Fleece Sweatshirt",
+    rating: {
+      stars: 4.5,
+      count: 3187
+    },
+    priceCents: 3200,
+    keywords: [
+      "hoodies",
+      "apparel",
+      "mens"
+    ]
+  },
+  {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
     image: "images/products/athletic-cotton-socks-6-pairs.jpg",
     name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
     rating: {
       stars: 4.5,
-      count: 87
+      count: 97
     },
-    priceCents: 1090,
+    priceCents: 890,
     keywords: [
       "socks",
-      "sports",
       "apparel"
     ]
   },
@@ -19,12 +63,11 @@ const products = [
     image: "images/products/intermediate-composite-basketball.jpg",
     name: "Intermediate Size Basketball",
     rating: {
-      stars: 4,
-      count: 127
+      stars: 4.5,
+      count: 157
     },
-    priceCents: 2095,
+    priceCents: 1999,
     keywords: [
-      "sports",
       "basketballs"
     ]
   },
@@ -34,13 +77,12 @@ const products = [
     name: "Adults Plain Cotton T-Shirt - 2 Pack",
     rating: {
       stars: 4.5,
-      count: 56
+      count: 59
     },
-    priceCents: 799,
+    priceCents: 899,
     keywords: [
       "tshirts",
-      "apparel",
-      "mens"
+      "apparel"
     ],
     type: "clothing",
     sizeChartLink: "images/clothing-size-chart.png"
@@ -53,7 +95,7 @@ const products = [
       stars: 5,
       count: 2197
     },
-    priceCents: 1899,
+    priceCents: 1699,
     keywords: [
       "toaster",
       "kitchen",
@@ -73,6 +115,52 @@ const products = [
       "plates",
       "kitchen",
       "dining"
+    ]
+  },
+  {
+    id: "a45cfa0a-66d6-4dc7-9475-e2b01595f7d7",
+    image: "images/products/women-french-terry-fleece-jogger-camo.jpg",
+    name: "Women's Fleece Jogger Sweatpant",
+    rating: {
+      stars: 4.5,
+      count: 248
+    },
+    priceCents: 2400,
+    keywords: [
+      "pants",
+      "sweatpants",
+      "jogging",
+      "apparel",
+      "womens"
+    ]
+  },
+  {
+    id: "d339adf3-e004-4c20-a120-40e8874c66cb",
+    image: "images/products/double-elongated-twist-french-wire-earrings.webp",
+    name: "Double Oval Twist French Wire Earrings - Gold",
+    rating: {
+      stars: 4.5,
+      count: 117
+    },
+    priceCents: 2400,
+    keywords: [
+      "accessories",
+      "womens"
+    ]
+  },
+  {
+    id: "d37a651a-d501-483b-aae6-a9659b0757a0",
+    image: "images/products/round-airtight-food-storage-containers.jpg",
+    name: "Round Airtight Food Storage Containers - 5 Piece",
+    rating: {
+      stars: 4,
+      count: 126
+    },
+    priceCents: 2899,
+    keywords: [
+      "boxes",
+      "food containers",
+      "kitchen"
     ]
   },
   {
@@ -205,13 +293,13 @@ const products = [
     image: "images/products/blackout-curtain-set-beige.webp",
     name: "Blackout Curtains Set 4-Pack - Beige",
     rating: {
-      stars: 4.5,
-      count: 232
+      stars: 3.5,
+      count: 262
     },
-    priceCents: 4599,
+    priceCents: 4199,
     keywords: [
       "bedroom",
-      "curtains",
+      "bedroom curtains",
       "home"
     ]
   },
@@ -221,9 +309,9 @@ const products = [
     name: "Men's Slim-Fit Summer Shorts",
     rating: {
       stars: 4,
-      count: 160
+      count: 190
     },
-    priceCents: 1699,
+    priceCents: 1899,
     keywords: [
       "shorts",
       "apparel",
@@ -236,9 +324,9 @@ const products = [
     name: "Electric Glass and Steel Hot Tea Water Kettle - 1.7-Liter",
     rating: {
       stars: 5,
-      count: 846
+      count: 886
     },
-    priceCents: 3074,
+    priceCents: 3474,
     keywords: [
       "water boiler",
       "appliances",
@@ -251,15 +339,15 @@ const products = [
     name: "Ultra Soft Tissue 2-Ply - 18 Box",
     rating: {
       stars: 4,
-      count: 99
+      count: 101
     },
-    priceCents: 2374,
+    priceCents: 2474,
     keywords: [
       "kleenex",
       "tissues",
       "kitchen",
       "tissues box",
-      "napkins"
+      "napkin"
     ]
   },
   {
@@ -267,10 +355,10 @@ const products = [
     image: "images/products/straw-sunhat.webp",
     name: "Straw Lifeguard Sun Hat",
     rating: {
-      stars: 4,
+      stars: 4.5,
       count: 215
     },
-    priceCents: 2200,
+    priceCents: 2400,
     keywords: [
       "hats",
       "straw hats",
@@ -283,10 +371,10 @@ const products = [
     image: "images/products/sky-flower-stud-earrings.webp",
     name: "Sterling Silver Sky Flower Stud Earrings",
     rating: {
-      stars: 4.5,
-      count: 52
+      stars: 3.5,
+      count: 54
     },
-    priceCents: 1799,
+    priceCents: 1899,
     keywords: [
       "jewelry",
       "accessories",
@@ -298,10 +386,10 @@ const products = [
     image: "images/products/women-stretch-popover-hoodie-black.jpg",
     name: "Women's Stretch Popover Hoodie",
     rating: {
-      stars: 4.5,
-      count: 2465
+      stars: 4.0,
+      count: 2565
     },
-    priceCents: 1374,
+    priceCents: 1774,
     keywords: [
       "hooded",
       "hoodies",
@@ -490,52 +578,6 @@ const products = [
     ]
   },
   {
-    id: "a45cfa0a-66d6-4dc7-9475-e2b01595f7d7",
-    image: "images/products/women-french-terry-fleece-jogger-camo.jpg",
-    name: "Women's Fleece Jogger Sweatpant",
-    rating: {
-      stars: 4.5,
-      count: 248
-    },
-    priceCents: 2400,
-    keywords: [
-      "pants",
-      "sweatpants",
-      "jogging",
-      "apparel",
-      "womens"
-    ]
-  },
-  {
-    id: "d339adf3-e004-4c20-a120-40e8874c66cb",
-    image: "images/products/double-elongated-twist-french-wire-earrings.webp",
-    name: "Double Oval Twist French Wire Earrings - Gold",
-    rating: {
-      stars: 4.5,
-      count: 117
-    },
-    priceCents: 2400,
-    keywords: [
-      "accessories",
-      "womens"
-    ]
-  },
-  {
-    id: "d37a651a-d501-483b-aae6-a9659b0757a0",
-    image: "images/products/round-airtight-food-storage-containers.jpg",
-    name: "Round Airtight Food Storage Containers - 5 Piece",
-    rating: {
-      stars: 4,
-      count: 126
-    },
-    priceCents: 2899,
-    keywords: [
-      "boxes",
-      "food containers",
-      "kitchen"
-    ]
-  },
-  {
     id: "0d7f9afa-2efe-4fd9-b0fd-ba5663e0a524",
     image: "images/products/coffeemaker-with-glass-carafe-black.jpg",
     name: "Coffeemaker with Glass Carafe and Reusable Filter - 25 Oz, Black",
@@ -543,7 +585,7 @@ const products = [
       stars: 4.5,
       count: 1211
     },
-    priceCents: 2250,
+    priceCents: 2450,
     keywords: [
       "coffeemakers",
       "kitchen",
@@ -558,7 +600,7 @@ const products = [
       stars: 4.5,
       count: 363
     },
-    priceCents: 3099,
+    priceCents: 3499,
     keywords: [
       "bedroom",
       "home"
@@ -572,7 +614,7 @@ const products = [
       stars: 4.5,
       count: 93
     },
-    priceCents: 2110,
+    priceCents: 2310,
     keywords: [
       "bathroom",
       "home",
@@ -584,10 +626,10 @@ const products = [
     image: "images/products/knit-athletic-sneakers-pink.webp",
     name: "Waterproof Knit Athletic Sneakers - Pink",
     rating: {
-      stars: 4,
-      count: 89
+      stars: 4.5,
+      count: 99
     },
-    priceCents: 3390,
+    priceCents: 3190,
     keywords: [
       "shoes",
       "running shoes",
@@ -595,66 +637,21 @@ const products = [
       "womens"
     ]
   },
+  
   {
     id: "77a845b1-16ed-4eac-bdf9-5b591882113d",
     image: "images/products/countertop-blender-64-oz.jpg",
     name: "Countertop Blender - 64oz, 1400 Watts",
     rating: {
-      stars: 4,
-      count: 3
+      stars: 4.5,
+      count: 85
     },
-    priceCents: 10747,
+    priceCents: 10947,
     keywords: [
       "food blenders",
       "kitchen",
       "appliances"
     ]
   },
-  {
-    id: "36c64692-677f-4f58-b5ec-0dc2cf109e27",
-    image: "images/products/floral-mixing-bowl-set.jpg",
-    name: "10-Piece Mixing Bowl Set with Lids - Floral",
-    rating: {
-      stars: 5,
-      count: 679
-    },
-    priceCents: 3899,
-    keywords: [
-      "mixing bowls",
-      "baking",
-      "cookware",
-      "kitchen"
-    ]
-  },
-  {
-    id: "aaa65ef3-8d6f-4eb3-bc9b-a6ea49047d8f",
-    image: "images/products/kitchen-paper-towels-30-pack.jpg",
-    name: "2-Ply Kitchen Paper Towels - 30 Pack",
-    rating: {
-      stars: 4.5,
-      count: 1045
-    },
-    priceCents: 5799,
-    keywords: [
-      "kitchen",
-      "kitchen towels",
-      "tissues"
-    ]
-  },
-  {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a955",
-    image: "images/products/men-cozy-fleece-zip-up-hoodie-red.jpg",
-    name: "Men's Full-Zip Hooded Fleece Sweatshirt",
-    rating: {
-      stars: 4.5,
-      count: 3157
-    },
-    priceCents: 2400,
-    keywords: [
-      "sweaters",
-      "hoodies",
-      "apparel",
-      "mens"
-    ]
-  }
+  
 ];
