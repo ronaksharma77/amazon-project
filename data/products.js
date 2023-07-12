@@ -7,7 +7,7 @@ const products = [
       stars: 4,
       count: 750
     },
-    priceCents: 4168,
+    Price: 4168,
     keywords: [
       "mixing bowls",
       "baking",
@@ -23,7 +23,7 @@ const products = [
       stars: 4.0,
       count: 1055
     },
-    priceCents: 5499,
+    Price: 5499,
     keywords: [
       "kitchen",
       "kitchen towels"
@@ -37,7 +37,7 @@ const products = [
       stars: 4.5,
       count: 3187
     },
-    priceCents: 3200,
+    Price: 3200,
     keywords: [
       "hoodies",
       "apparel",
@@ -52,7 +52,7 @@ const products = [
       stars: 4.5,
       count: 97
     },
-    priceCents: 890,
+    Price: 890,
     keywords: [
       "socks",
       "apparel"
@@ -66,7 +66,7 @@ const products = [
       stars: 4.5,
       count: 157
     },
-    priceCents: 1999,
+    Price: 1999,
     keywords: [
       "basketballs"
     ]
@@ -79,7 +79,7 @@ const products = [
       stars: 4.5,
       count: 59
     },
-    priceCents: 899,
+    Price: 899,
     keywords: [
       "tshirts",
       "apparel"
@@ -95,7 +95,7 @@ const products = [
       stars: 5,
       count: 2197
     },
-    priceCents: 1699,
+    Price: 1699,
     keywords: [
       "toaster",
       "kitchen",
@@ -110,7 +110,7 @@ const products = [
       stars: 4,
       count: 37
     },
-    priceCents: 2067,
+    Price: 2067,
     keywords: [
       "plates",
       "kitchen",
@@ -125,7 +125,7 @@ const products = [
       stars: 4.5,
       count: 248
     },
-    priceCents: 2400,
+    Price: 2400,
     keywords: [
       "pants",
       "sweatpants",
@@ -142,7 +142,7 @@ const products = [
       stars: 4.5,
       count: 117
     },
-    priceCents: 2400,
+    Price: 2400,
     keywords: [
       "accessories",
       "womens"
@@ -156,7 +156,7 @@ const products = [
       stars: 4,
       count: 126
     },
-    priceCents: 2899,
+    Price: 2899,
     keywords: [
       "boxes",
       "food containers",
@@ -171,7 +171,7 @@ const products = [
       stars: 4.5,
       count: 175
     },
-    priceCents: 3499,
+    Price: 3499,
     keywords: [
       "kitchen",
       "cookware"
@@ -185,7 +185,7 @@ const products = [
       stars: 4.5,
       count: 317
     },
-    priceCents: 2400,
+    Price: 2400,
     keywords: [
       "hoodies",
       "sweaters",
@@ -200,7 +200,7 @@ const products = [
       stars: 4.5,
       count: 144
     },
-    priceCents: 3599,
+    Price: 3599,
     keywords: [
       "bathroom",
       "washroom",
@@ -217,7 +217,7 @@ const products = [
       stars: 4.5,
       count: 305
     },
-    priceCents: 2899,
+    Price: 2899,
     keywords: [
       "bathroom",
       "cleaning"
@@ -231,7 +231,7 @@ const products = [
       stars: 4,
       count: 89
     },
-    priceCents: 3390,
+    Price: 3390,
     keywords: [
       "shoes",
       "running shoes",
@@ -246,7 +246,7 @@ const products = [
       stars: 4.5,
       count: 235
     },
-    priceCents: 2070,
+    Price: 2070,
     keywords: [
       "robe",
       "swimsuit",
@@ -265,7 +265,7 @@ const products = [
       stars: 4.5,
       count: 30
     },
-    priceCents: 1560,
+    Price: 1560,
     keywords: [
       "accessories",
       "shades"
@@ -279,7 +279,7 @@ const products = [
       stars: 4.5,
       count: 562
     },
-    priceCents: 2499,
+    Price: 2499,
     keywords: [
       "footwear",
       "sandals",
@@ -296,7 +296,7 @@ const products = [
       stars: 3.5,
       count: 262
     },
-    priceCents: 4199,
+    Price: 4199,
     keywords: [
       "bedroom",
       "bedroom curtains",
@@ -311,7 +311,7 @@ const products = [
       stars: 4,
       count: 190
     },
-    priceCents: 1899,
+    Price: 1899,
     keywords: [
       "shorts",
       "apparel",
@@ -326,7 +326,7 @@ const products = [
       stars: 5,
       count: 886
     },
-    priceCents: 3474,
+    Price: 3474,
     keywords: [
       "water boiler",
       "appliances",
@@ -341,7 +341,7 @@ const products = [
       stars: 4,
       count: 101
     },
-    priceCents: 2474,
+    Price: 2474,
     keywords: [
       "kleenex",
       "tissues",
@@ -358,7 +358,7 @@ const products = [
       stars: 4.5,
       count: 215
     },
-    priceCents: 2400,
+    Price: 2400,
     keywords: [
       "hats",
       "straw hats",
@@ -374,7 +374,7 @@ const products = [
       stars: 3.5,
       count: 54
     },
-    priceCents: 1899,
+    Price: 1899,
     keywords: [
       "jewelry",
       "accessories",
@@ -389,7 +389,7 @@ const products = [
       stars: 4.0,
       count: 2565
     },
-    priceCents: 1774,
+    Price: 1774,
     keywords: [
       "hooded",
       "hoodies",
@@ -408,7 +408,7 @@ const products = [
       stars: 4.5,
       count: 119
     },
-    priceCents: 1250,
+    Price: 1250,
     keywords: [
       "bathmat",
       "bathroom",
@@ -423,7 +423,7 @@ const products = [
       stars: 4,
       count: 326
     },
-    priceCents: 2640,
+    Price: 2640,
     keywords: [
       "shoes",
       "flats",
@@ -439,7 +439,7 @@ const products = [
       stars: 4.5,
       count: 2556
     },
-    priceCents: 1599,
+    Price: 1599,
     keywords: [
       "tshirts",
       "shirts",
@@ -457,7 +457,7 @@ const products = [
       stars: 4.5,
       count: 2286
     },
-    priceCents: 8300,
+    Price: 8300,
     keywords: [
       "garbage",
       "bins",
@@ -473,7 +473,7 @@ const products = [
       stars: 4,
       count: 456
     },
-    priceCents: 2399,
+    Price: 2399,
     keywords: [
       "bedroom",
       "bed sheets",
@@ -490,7 +490,7 @@ const products = [
       stars: 5,
       count: 83
     },
-    priceCents: 1250,
+    Price: 1250,
     keywords: [
       "hats",
       "winter hats",
@@ -508,7 +508,7 @@ const products = [
       stars: 4.5,
       count: 9017
     },
-    priceCents: 2290,
+    Price: 2290,
     keywords: [
       "pants",
       "apparel",
@@ -523,7 +523,7 @@ const products = [
       stars: 4,
       count: 229
     },
-    priceCents: 3890,
+    Price: 3890,
     keywords: [
       "shoes",
       "running shoes",
@@ -539,7 +539,7 @@ const products = [
       stars: 3.5,
       count: 42
     },
-    priceCents: 1690,
+    Price: 1690,
     keywords: [
       "sunglasses",
       "glasses",
@@ -555,7 +555,7 @@ const products = [
       stars: 4.5,
       count: 511
     },
-    priceCents: 6797,
+    Price: 6797,
     keywords: [
       "cooking set",
       "kitchen"
@@ -569,7 +569,7 @@ const products = [
       stars: 4.5,
       count: 130
     },
-    priceCents: 1649,
+    Price: 1649,
     keywords: [
       "bathroom",
       "washroom",
@@ -585,7 +585,7 @@ const products = [
       stars: 4.5,
       count: 1211
     },
-    priceCents: 2450,
+    Price: 2450,
     keywords: [
       "coffeemakers",
       "kitchen",
@@ -600,7 +600,7 @@ const products = [
       stars: 4.5,
       count: 363
     },
-    priceCents: 3499,
+    Price: 3499,
     keywords: [
       "bedroom",
       "home"
@@ -614,7 +614,7 @@ const products = [
       stars: 4.5,
       count: 93
     },
-    priceCents: 2310,
+    Price: 2310,
     keywords: [
       "bathroom",
       "home",
@@ -629,7 +629,7 @@ const products = [
       stars: 4.5,
       count: 99
     },
-    priceCents: 3190,
+    Price: 3190,
     keywords: [
       "shoes",
       "running shoes",
@@ -646,7 +646,7 @@ const products = [
       stars: 4.5,
       count: 85
     },
-    priceCents: 10947,
+    Price: 10947,
     keywords: [
       "food blenders",
       "kitchen",
