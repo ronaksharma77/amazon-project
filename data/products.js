@@ -560,6 +560,6 @@ const products = [
       "cooking set",
       "kitchen"
     ]
-  },
+  }
   
 ];
