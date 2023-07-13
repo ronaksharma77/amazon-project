@@ -5,7 +5,7 @@
 .amazon-logo{
   zoom: 140%;
 }
-.ad-amazon{
+.header-ad{
   margin-top: 120px;
   zoom: 50%;
 }
@@ -134,6 +134,7 @@
   
   opacity: 0;
 }
+
 
 .added-to-cart img {
   height: 20px;
