@@ -1,8 +1,13 @@
 .main {
   margin-top: 60px;
+  margin-bottom: 20px;
 }
 .amazon-logo{
   zoom: 140%;
+}
+.ad-amazon{
+  margin-top: 120px;
+  zoom: 50%;
 }
 .products-grid {
   display: grid;
@@ -139,4 +144,63 @@
   width: 100%;
   padding: 8px;
   border-radius: 50px;
+}
+.footer{
+  margin-top: 20px;
+}
+.back-to-top{
+  display: flex;
+  color: white;
+  background-color: rgb(43, 55, 72);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.footer{
+  background-color: rgb(28,35,48);
+  
+}
+.amazon-details{
+  color: rgb(221, 221, 221);
+  background-color: rgb(28,35,48);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 200px;
+  padding-right: 150px;
+ 
+}
+.amazon-details-header{
+  color: white;
+font-size: 18px;
+font-weight: bold;
+margin-top: 30px;
+margin-bottom: 10px;
+
+}
+
+
+.disclaimer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+.footer-logo{
+  padding-left: 600px;
+}
+.copyright-details{
+  padding-left: 500px;
+}
+.amazon-links{
+  color: white;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.amazon-link{
+  color: rgb(221,221,221);
+  text-decoration: none;
+}
+.amazon-link:hover{
+ text-decoration: underline;
 }
