@@ -9,7 +9,7 @@ let imageSource = [
 ]
 
 let index = 0;
-setInterval (function(){
+setInterval (()=>{
 if (index === imageSource.length) {
 index = 0;
 }
@@ -63,7 +63,7 @@ products.forEach((product) => {
       
 
       <button class="add-to-cart-button button-primary js-add-to-cart"
-      data-product-id="${product.id}">
+      data-product-id="${product.id} data-product-name="${product.name} data-product-image="${product.image} data-product-price="${product.Price} ">
         Add to Cart
       </button>
     </div>
