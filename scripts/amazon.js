@@ -1,4 +1,4 @@
-var imageSources = [
+let imageSource = [
   "https://m.media-amazon.com/images/I/61GnAucagBL._SX3000_.png",
   "https://m.media-amazon.com/images/I/71qlKqpJnlL._SX3000_.jpg",
   "https://m.media-amazon.com/images/I/71cQMXCLSvL._SX3000_.jpg",
@@ -8,19 +8,19 @@ var imageSources = [
   "https://m.media-amazon.com/images/I/61UrRx+3LLL._SX3000_.jpg"
 ]
 
-var index = 0;
+let index = 0;
 setInterval (function(){
-if (index === imageSources.length) {
+if (index === imageSource.length) {
 index = 0;
 }
-document.getElementById("image").src = imageSources[index];
+document.getElementById("image").src = imageSource[index];
 index++;
 } , 2000);
 
 let productsHTML = '';
 
 products.forEach((product) => {
-  productsHTML += `
+  productsHTML +=`
     <div class="product-container">
       <div class="product-image-container">
         <img class="product-image"
@@ -60,10 +60,7 @@ products.forEach((product) => {
 
       <div class="product-spacer"></div>
 
-      <div class="added-to-cart">
-        <img src="images/icons/checkmark.png">
-        Added
-      </div>
+      
 
       <button class="add-to-cart-button button-primary js-add-to-cart"
       data-product-id="${product.id}">
@@ -73,13 +70,14 @@ products.forEach((product) => {
   `;
 });
 
-document.querySelector('.js-products-grid').innerHTML = productsHTML;
+document.querySelector('.js-products-grid')
+.innerHTML = productsHTML;
 
 document.querySelectorAll('.js-add-to-cart')
   .forEach((button) => {
     button.addEventListener('click', () => {
       const productId = button.dataset.productId;
-
+      
       let matchingItem;
 
       cart.forEach((item) => {
@@ -110,5 +108,21 @@ document.querySelectorAll('.js-add-to-cart')
   });
   
   
-    
+  var buttons = document.getElementsByClassName('js-add-to-cart');
+  
+  
+  for (var i = 0; i < buttons.length; i++) {
+      buttons[i].addEventListener('click', function() {
+          var button = this;
+          button.innerHTML = 'Added';
+          button.classList.add('Added');
 
+          
+          setTimeout(function() {
+              button.innerHTML = 'Add to Cart';
+              button.classList.remove('Added');
+          }, 3000);
+      });
+  }
+
+  
