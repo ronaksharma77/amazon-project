@@ -123,6 +123,12 @@
   flex: 1;
 }
 
+.Added{
+  
+  background-color: rgb(255, 255, 255);
+ opacity: 1;
+ 
+}
 .added-to-cart {
   color: rgb(5, 127, 95);
   font-size: 16px;
@@ -130,9 +136,9 @@
   display: flex;
   align-items: center;
   margin-bottom: 8px;
-
+   border: none;
+  background-color: white;
   
-  opacity: 0;
 }
 
 
