@@ -90,7 +90,7 @@ cartHTML+=`<div class="payment-summary">
   </div>
 
   <div class="payment-summary-row">
-    <div>Items (2):</div>
+    <div>Items (${products.length}):</div>
     <div class="payment-summary-money">₹${finalMoney}</div>
   </div>
 
@@ -106,7 +106,7 @@ cartHTML+=`<div class="payment-summary">
 
   <div class="payment-summary-row">
     <div>Estimated tax (10%):</div>
-    <div class="payment-summary-money">₹${0.1*finalMoney}</div>
+    <div class="payment-summary-money">₹${(0.1*finalMoney).toFixed(2)}</div>
   </div>
 
   <div class="payment-summary-row total-row">

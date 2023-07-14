@@ -20,6 +20,7 @@ index++;
 let productsHTML = '';
 
 products.forEach((product) => {
+  
   productsHTML +=`
     <div class="product-container">
       <div class="product-image-container">
@@ -63,7 +64,7 @@ products.forEach((product) => {
       
 
       <button class="add-to-cart-button button-primary js-add-to-cart"
-      data-product-id="${product.id} data-product-name="${product.name} data-product-image="${product.image} data-product-price="${product.Price} ">
+      data-product-id="${product.id}">
         Add to Cart
       </button>
     </div>
