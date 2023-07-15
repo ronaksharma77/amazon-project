@@ -1,8 +1,7 @@
-let cartHTML = '<div class="page-title">Review your order</div><div class="checkout-grid"></div>';
+let cartHTML = '';
 
-products.forEach((product) => {
+carts.forEach((product) => {
   cartHTML += `
-  <div class="order-summary">
       <div class="cart-item-container">
             <div class="delivery-date">
               Delivery date: Tuesday, June 21
@@ -14,7 +13,7 @@ products.forEach((product) => {
 
               <div class="cart-item-details">
                 <div class="product-name">
-                  ${product.name}
+                  ${(product.name)}
                 </div>
                 <div class="product-price">
                 ₹${product.Price}
@@ -78,44 +77,22 @@ products.forEach((product) => {
               </div>
             </div>
           </div>
+          </div>
   `;
 });
 let finalMoney=0;
-products.forEach((product) => {
+carts.forEach((product) => {
         finalMoney+=product.Price;
 });
-cartHTML+=`<div class="payment-summary">
-  <div class="payment-summary-title">
-    Order Summary
-  </div>
 
-  <div class="payment-summary-row">
-    <div>Items (${products.length}):</div>
-    <div class="payment-summary-money">₹${finalMoney}</div>
-  </div>
+document.querySelector('.order-summary').innerHTML = cartHTML;
 
-  <div class="payment-summary-row">
-    <div>Shipping &amp; handling:</div>
-    <div class="payment-summary-money">₹59</div>
-  </div>
+document.querySelector('.js-middle-section').innerHTML = `Checkout (<a class="return-to-home-link"
+href="amazon.html">${carts.length} items</a>)`;
 
-  <div class="payment-summary-row subtotal-row">
-    <div>Total before tax:</div>
-    <div class="payment-summary-money">₹${59+finalMoney}</div>
-  </div>
+document.querySelector('.item-count').innerHTML = `Items (${carts.length}) :`;
+document.querySelector('.js-item-cost').innerHTML = ` ₹${finalMoney}`;
+document.querySelector('.js-total-before-tax').innerHTML = ` ₹${59+finalMoney}`;
+document.querySelector('.js-tax').innerHTML = ` ₹${(0.1*finalMoney).toFixed(2)}`
+document.querySelector('.js-order-total').innerHTML = ` ₹${(1.1*finalMoney+59).toFixed(2)}`
 
-  <div class="payment-summary-row">
-    <div>Estimated tax (10%):</div>
-    <div class="payment-summary-money">₹${(0.1*finalMoney).toFixed(2)}</div>
-  </div>
-
-  <div class="payment-summary-row total-row">
-    <div>Order total:</div>
-    <div class="payment-summary-money">₹${(59+1.1*finalMoney).toFixed(2)}</div>
-  </div>
-
-  <a href="orders.html"><button class="place-order-button button-primary">
-    Place your order
-  </button></a>
-</div>`;
-document.querySelector('.main').innerHTML = cartHTML;

@@ -25,9 +25,8 @@
           </a>
         </div>
 
-        <div class="checkout-header-middle-section">
-          Checkout (<a class="return-to-home-link"
-            href="amazon.html">3 items</a>)
+        <div class="checkout-header-middle-section js-middle-section">
+          
         </div>
 
         <div class="checkout-header-right-section">
@@ -40,9 +39,10 @@
       <div class="page-title">Review your order</div>
 
       <div class="checkout-grid">
-   <!-- 
+    
 
         <div class="order-summary">
+        <!-- 
       <div class="cart-item-container">
             <div class="delivery-date">
               Delivery date: Tuesday, June 21
@@ -202,8 +202,8 @@
           </div>
 
           <div class="payment-summary-row">
-            <div>Items (2):</div>
-            <div class="payment-summary-money">₹3285</div>
+            <div class="item-count">Items (2):</div>
+            <div class="payment-summary-money js-item-cost">₹3285</div>
           </div>
 
           <div class="payment-summary-row">
@@ -213,17 +213,17 @@
 
           <div class="payment-summary-row subtotal-row">
             <div>Total before tax:</div>
-            <div class="payment-summary-money">₹3344</div>
+            <div class="payment-summary-money js-total-before-tax">₹3344</div>
           </div>
 
           <div class="payment-summary-row">
             <div>Estimated tax (10%):</div>
-            <div class="payment-summary-money">₹334</div>
+            <div class="payment-summary-money js-tax">₹334</div>
           </div>
 
           <div class="payment-summary-row total-row">
             <div>Order total:</div>
-            <div class="payment-summary-money">₹3678</div>
+            <div class="payment-summary-money js-order-total">₹3678</div>
           </div>
 
           <a href="orders.html"><button class="place-order-button button-primary">
@@ -233,7 +233,7 @@
       </div>
     
     
-  
+    </div>
     <hr>
     <div class="footer">
       <a style="text-decoration: none;" href="tracking.html">
@@ -295,6 +295,7 @@
     </div>
   </div>
     </div>
+    
   <script src="data/cart.js"></script>
   <script src="data/products.js"></script>
   <script src="scripts/checkout.js"></script>
