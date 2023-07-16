@@ -1,6 +1,6 @@
 let cartHTML = '';
 
-carts.forEach((product) => {
+products.forEach((product) => {
   cartHTML += `
       <div class="cart-item-container">
             <div class="delivery-date">
@@ -81,7 +81,7 @@ carts.forEach((product) => {
   `;
 });
 let finalMoney=0;
-carts.forEach((product) => {
+products.forEach((product) => {
         finalMoney+=product.Price;
 });
 
