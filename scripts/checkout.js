@@ -90,7 +90,7 @@ document.querySelector('.order-summary').innerHTML = cartHTML;
 document.querySelector('.js-middle-section').innerHTML = `Checkout (<a class="return-to-home-link"
 href="amazon.html">${carts.length} items</a>)`;
 
-document.querySelector('.item-count').innerHTML = `Items (${carts.length}) :`;
+document.querySelector('.item-count').innerHTML = `Items (${products.length}) :`;
 document.querySelector('.js-item-cost').innerHTML = ` ₹${finalMoney}`;
 document.querySelector('.js-total-before-tax').innerHTML = ` ₹${59+finalMoney}`;
 document.querySelector('.js-tax').innerHTML = ` ₹${(0.1*finalMoney).toFixed(2)}`
