@@ -88,7 +88,7 @@ products.forEach((product) => {
 document.querySelector('.order-summary').innerHTML = cartHTML;
 
 document.querySelector('.js-middle-section').innerHTML = `Checkout (<a class="return-to-home-link"
-href="amazon.html">${carts.length} items</a>)`;
+href="amazon.html">${products.length} items</a>)`;
 
 document.querySelector('.item-count').innerHTML = `Items (${products.length}) :`;
 document.querySelector('.js-item-cost').innerHTML = ` ₹${finalMoney}`;
